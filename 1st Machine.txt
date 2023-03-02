@@ -1,0 +1,342 @@
+     ┌────────────────────────────────────────────────────────────────────┐
+     │                • MobaXterm Personal Edition v21.5 •                │
+     │              (X server, SSH client and network tools)              │
+     │                                                                    │
+     │ ➤ Your computer drives are accessible through the /drives path     │
+     │ ➤ Your DISPLAY is set to 192.168.0.101:0.0                         │
+     │ ➤ When using SSH, your remote DISPLAY is automatically forwarded   │
+     │ ➤ Your HOME folder is not persistent: it will be erased on restart │
+     │ ➤ Each command status is specified by a special symbol (✔ or ✘)    │
+     │                                                                    │
+     │ • Important:                                                       │
+     │ This is MobaXterm Personal Edition. The Professional edition       │
+     │ allows you to customize MobaXterm for your company: you can add    │
+     │ your own logo, your parameters, your welcome message and generate  │
+     │ either an MSI installation package or a portable executable.       │
+     │ We can also modify MobaXterm or develop the plugins you need.      │
+     │ For more information: https://mobaxterm.mobatek.net/download.html  │
+     └────────────────────────────────────────────────────────────────────┘
+
+  06/04/2022   14:14.15   /home/mobaxterm  cd desktop/keys
+
+
+  06/04/2022   14:14.21   /home/mobaxterm/desktop/keys  ssh -i "ohio-instance.pem" ec2-user@ec2-18-naws.com
+Warning: Permanently added 'ec2-18-191-182-66.us-east-2.compute.amazonaws.com' (RSA) to the list of known ho
+X11 forwarding request failed on channel 0
+Last login: Wed Apr  6 05:35:24 2022 from 45.115.58.66
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+[ec2-user@satish ~]$
+[ec2-user@satish ~]$
+[ec2-user@satish ~]$
+[ec2-user@satish ~]$ sudo su -
+Last login: Wed Apr  6 05:35:28 UTC 2022 on pts/0
+[root@satish ~]#
+[root@satish ~]#
+[root@satish ~]#
+[root@satish ~]#
+[root@satish ~]# cd /
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]# yum list git
+
+
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Installed Packages
+git.x86_64                                  2.32.0-1.amzn2.0.1                                   @amzn2-core
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]# mkdir 88
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]#
+[root@satish /]# cd 88
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /88/.git/
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# ls -ltra
+total 4
+dr-xr-xr-x 22 root root 4096 Apr  6 08:45 ..
+drwxr-xr-x  7 root root  119 Apr  6 08:46 .git
+drwxr-xr-x  3 root root   18 Apr  6 08:46 .
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# vi index.html
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# cat index.html
+This is first file
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git add index.html
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git commit -m "This commit is fo index.html"
+[master (root-commit) fe852c5] This commit is fo index.html
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git status
+On branch master
+nothing to commit, working tree clean
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git remote add origin https://github.com/satish7498/88.git
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git remote -v
+origin  https://github.com/satish7498/88.git (fetch)
+origin  https://github.com/satish7498/88.git (push)
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 244 bytes | 244.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/satish7498/88.git
+ * [new branch]      master -> master
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git log
+commit fe852c5bb1fcd0e4d70d8ca6077b3e92fa05326b (HEAD -> master, origin/master)
+Author: satish7498 <satishrajurkar01@gmail.com>
+Date:   Wed Apr 6 08:49:35 2022 +0000
+
+    This commit is fo index.html
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# cat index.html
+This is first file
+[root@satish 88]# cat index.html
+This is first file
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git diff origin
+fatal: ambiguous argument 'origin': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git diff origin https://github.com/satish7498/88.git
+fatal: ambiguous argument 'origin': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git log
+commit fe852c5bb1fcd0e4d70d8ca6077b3e92fa05326b (HEAD -> master, origin/master)
+Author: satish7498 <satishrajurkar01@gmail.com>
+Date:   Wed Apr 6 08:49:35 2022 +0000
+
+    This commit is fo index.html
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git status
+On branch master
+nothing to commit, working tree clean
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# cat index.html
+This is first file
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git show index.html
+commit fe852c5bb1fcd0e4d70d8ca6077b3e92fa05326b (HEAD -> master, origin/master)
+Author: satish7498 <satishrajurkar01@gmail.com>
+Date:   Wed Apr 6 08:49:35 2022 +0000
+
+    This commit is fo index.html
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..fbd5941
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1 @@
++This is first file
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git fetch +1 @@
+fatal: '+1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git fetch
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 265 bytes | 265.00 KiB/s, done.
+From https://github.com/satish7498/88
+   fe852c5..fb1781c  master     -> origin/master
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]# git show index.html
+commit fe852c5bb1fcd0e4d70d8ca6077b3e92fa05326b (HEAD -> master)
+Author: satish7498 <satishrajurkar01@gmail.com>
+Date:   Wed Apr 6 08:49:35 2022 +0000
+
+    This commit is fo index.html
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..fbd5941
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1 @@
++This is first file
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#
+[root@satish 88]#

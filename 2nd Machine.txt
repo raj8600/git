@@ -1,0 +1,782 @@
+     ┌────────────────────────────────────────────────────────────────────┐
+     │                • MobaXterm Personal Edition v21.5 •                │
+     │              (X server, SSH client and network tools)              │
+     │                                                                    │
+     │ ➤ Your computer drives are accessible through the /drives path     │
+     │ ➤ Your DISPLAY is set to 192.168.0.101:0.0                         │
+     │ ➤ When using SSH, your remote DISPLAY is automatically forwarded   │
+     │ ➤ Your HOME folder is not persistent: it will be erased on restart │
+     │ ➤ Each command status is specified by a special symbol (✔ or ✘)    │
+     │                                                                    │
+     │ • Important:                                                       │
+     │ This is MobaXterm Personal Edition. The Professional edition       │
+     │ allows you to customize MobaXterm for your company: you can add    │
+     │ your own logo, your parameters, your welcome message and generate  │
+     │ either an MSI installation package or a portable executable.       │
+     │ We can also modify MobaXterm or develop the plugins you need.      │
+     │ For more information: https://mobaxterm.mobatek.net/download.html  │
+     └────────────────────────────────────────────────────────────────────┘
+
+  06/04/2022   14:24.04   /home/mobaxterm  cd desktop/keys
+
+
+  06/04/2022   14:24.10   /home/mobaxterm/desktop/keys  ssh -i "ohio-instance.pem" ec2-user@ec2-3-1
+Warning: Permanently added 'ec2-3-144-183-29.us-east-2.compute.amazonaws.com' (RSA) to the list of known hos
+X11 forwarding request failed on channel 0
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+[ec2-user@ip-172-31-25-240 ~]$
+[ec2-user@ip-172-31-25-240 ~]$
+[ec2-user@ip-172-31-25-240 ~]$
+[ec2-user@ip-172-31-25-240 ~]$
+[ec2-user@ip-172-31-25-240 ~]$
+[ec2-user@ip-172-31-25-240 ~]$ sudo su -
+[root@ip-172-31-25-240 ~]#
+[root@ip-172-31-25-240 ~]#
+[root@ip-172-31-25-240 ~]#
+[root@ip-172-31-25-240 ~]# cd /
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]# yum install git -y
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Resolving Dependencies
+--> Running transaction check
+---> Package git.x86_64 0:2.32.0-1.amzn2.0.1 will be installed
+--> Processing Dependency: perl-Git = 2.32.0-1.amzn2.0.1 for package: git-2.32.0-1.amzn2.0.1.x86_64
+--> Processing Dependency: git-core-doc = 2.32.0-1.amzn2.0.1 for package: git-2.32.0-1.amzn2.0.1.x86_64
+--> Processing Dependency: git-core = 2.32.0-1.amzn2.0.1 for package: git-2.32.0-1.amzn2.0.1.x86_64
+--> Processing Dependency: emacs-filesystem >= 27.1 for package: git-2.32.0-1.amzn2.0.1.x86_64
+--> Processing Dependency: perl(Term::ReadKey) for package: git-2.32.0-1.amzn2.0.1.x86_64
+--> Processing Dependency: perl(Git::I18N) for package: git-2.32.0-1.amzn2.0.1.x86_64
+--> Processing Dependency: perl(Git) for package: git-2.32.0-1.amzn2.0.1.x86_64
+--> Running transaction check
+---> Package emacs-filesystem.noarch 1:27.2-4.amzn2.0.1 will be installed
+---> Package git-core.x86_64 0:2.32.0-1.amzn2.0.1 will be installed
+---> Package git-core-doc.noarch 0:2.32.0-1.amzn2.0.1 will be installed
+---> Package perl-Git.noarch 0:2.32.0-1.amzn2.0.1 will be installed
+--> Processing Dependency: perl(Error) for package: perl-Git-2.32.0-1.amzn2.0.1.noarch
+---> Package perl-TermReadKey.x86_64 0:2.30-20.amzn2.0.2 will be installed
+--> Running transaction check
+---> Package perl-Error.noarch 1:0.17020-2.amzn2 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+============================================================================================================
+ Package                     Arch              Version                          Repository             Size
+============================================================================================================
+Installing:
+ git                         x86_64            2.32.0-1.amzn2.0.1               amzn2-core            126 k
+Installing for dependencies:
+ emacs-filesystem            noarch            1:27.2-4.amzn2.0.1               amzn2-core             67 k
+ git-core                    x86_64            2.32.0-1.amzn2.0.1               amzn2-core            4.8 M
+ git-core-doc                noarch            2.32.0-1.amzn2.0.1               amzn2-core            2.7 M
+ perl-Error                  noarch            1:0.17020-2.amzn2                amzn2-core             32 k
+ perl-Git                    noarch            2.32.0-1.amzn2.0.1               amzn2-core             43 k
+ perl-TermReadKey            x86_64            2.30-20.amzn2.0.2                amzn2-core             31 k
+
+Transaction Summary
+============================================================================================================
+Install  1 Package (+6 Dependent packages)
+
+Total download size: 7.8 M
+Installed size: 38 M
+Downloading packages:
+(1/7): emacs-filesystem-27.2-4.amzn2.0.1.noarch.rpm                                  |  67 kB  00:00:00
+(2/7): git-2.32.0-1.amzn2.0.1.x86_64.rpm                                             | 126 kB  00:00:00
+(3/7): git-core-doc-2.32.0-1.amzn2.0.1.noarch.rpm                                    | 2.7 MB  00:00:00
+(4/7): git-core-2.32.0-1.amzn2.0.1.x86_64.rpm                                        | 4.8 MB  00:00:00
+(5/7): perl-Error-0.17020-2.amzn2.noarch.rpm                                         |  32 kB  00:00:00
+(6/7): perl-Git-2.32.0-1.amzn2.0.1.noarch.rpm                                        |  43 kB  00:00:00
+(7/7): perl-TermReadKey-2.30-20.amzn2.0.2.x86_64.rpm                                 |  31 kB  00:00:00
+------------------------------------------------------------------------------------------------------------
+Total                                                                        30 MB/s | 7.8 MB  00:00:00
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : git-core-2.32.0-1.amzn2.0.1.x86_64                                                       1/7
+  Installing : git-core-doc-2.32.0-1.amzn2.0.1.noarch                                                   2/7
+  Installing : 1:perl-Error-0.17020-2.amzn2.noarch                                                      3/7
+  Installing : 1:emacs-filesystem-27.2-4.amzn2.0.1.noarch                                               4/7
+  Installing : perl-TermReadKey-2.30-20.amzn2.0.2.x86_64                                                5/7
+  Installing : perl-Git-2.32.0-1.amzn2.0.1.noarch                                                       6/7
+  Installing : git-2.32.0-1.amzn2.0.1.x86_64                                                            7/7
+  Verifying  : perl-TermReadKey-2.30-20.amzn2.0.2.x86_64                                                1/7
+  Verifying  : git-core-doc-2.32.0-1.amzn2.0.1.noarch                                                   2/7
+  Verifying  : perl-Git-2.32.0-1.amzn2.0.1.noarch                                                       3/7
+  Verifying  : 1:emacs-filesystem-27.2-4.amzn2.0.1.noarch                                               4/7
+  Verifying  : git-2.32.0-1.amzn2.0.1.x86_64                                                            5/7
+  Verifying  : git-core-2.32.0-1.amzn2.0.1.x86_64                                                       6/7
+  Verifying  : 1:perl-Error-0.17020-2.amzn2.noarch                                                      7/7
+
+Installed:
+  git.x86_64 0:2.32.0-1.amzn2.0.1
+
+Dependency Installed:
+  emacs-filesystem.noarch 1:27.2-4.amzn2.0.1           git-core.x86_64 0:2.32.0-1.amzn2.0.1
+  git-core-doc.noarch 0:2.32.0-1.amzn2.0.1             perl-Error.noarch 1:0.17020-2.amzn2
+  perl-Git.noarch 0:2.32.0-1.amzn2.0.1                 perl-TermReadKey.x86_64 0:2.30-20.amzn2.0.2
+
+Complete!
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]# mkdir 99
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]#
+[root@ip-172-31-25-240 /]# cd 99
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]# git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /99/.git/
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]# ls -ltra
+total 0
+dr-xr-xr-x 19 root root 267 Apr  6 08:54 ..
+drwxr-xr-x  7 root root 119 Apr  6 08:55 .git
+drwxr-xr-x  3 root root  18 Apr  6 08:55 .
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]# git clone https://github.com/satish7498/88.git
+Cloning into '88'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]# ls -lt
+total 0
+drwxr-xr-x 3 root root 36 Apr  6 08:56 88
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]#
+[root@ip-172-31-25-240 99]# cd 88
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# ls -ltra
+total 4
+drwxr-xr-x 4 root root  28 Apr  6 08:56 ..
+-rw-r--r-- 1 root root  19 Apr  6 08:56 index.html
+drwxr-xr-x 8 root root 163 Apr  6 08:56 .git
+drwxr-xr-x 3 root root  36 Apr  6 08:56 .
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# cat index.html
+This is first file
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# vi index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# cat index.html
+This is first file
+
+
+
+
+thi line is from 2nd user
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git config --global user.name "2ndUser"
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git config --global user.email "2@gmail.com"
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git add *
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git commit -m "This is commit from 2nd user"
+[master fb1781c] This is commit from 2nd user
+ 1 file changed, 5 insertions(+)
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git push origin master
+Username for 'https://github.com': 2ndUser
+Password for 'https://2ndUser@github.com':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 285 bytes | 285.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/satish7498/88.git
+   fe852c5..fb1781c  master -> master
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git log
+commit fb1781c1aa422e0acd7b05b1d0a1d703ea473dc0 (HEAD -> master, origin/master, origin/HEAD)
+Author: 2ndUser <2@gmail.com>
+Date:   Wed Apr 6 09:00:58 2022 +0000
+
+    This is commit from 2nd user
+
+commit fe852c5bb1fcd0e4d70d8ca6077b3e92fa05326b
+Author: satish7498 <satishrajurkar01@gmail.com>
+Date:   Wed Apr 6 08:49:35 2022 +0000
+
+    This commit is fo index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# cat index.html
+This is first file
+
+
+
+
+thi line is from 2nd user
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# vi ss.txt
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# ls -lt
+total 8
+-rw-r--r-- 1 root root 26 Apr  6 09:13 ss.txt
+-rw-r--r-- 1 root root 49 Apr  6 08:58 index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ss.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# vi .gitignore
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# cat .gitignore
+ss.txt
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git commit -m "Msg"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git add *
+The following paths are ignored by one of your .gitignore files:
+ss.txt
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git log
+commit fb1781c1aa422e0acd7b05b1d0a1d703ea473dc0 (HEAD -> master, origin/master, origin/HEAD)
+Author: 2ndUser <2@gmail.com>
+Date:   Wed Apr 6 09:00:58 2022 +0000
+
+    This is commit from 2nd user
+
+commit fe852c5bb1fcd0e4d70d8ca6077b3e92fa05326b
+Author: satish7498 <satishrajurkar01@gmail.com>
+Date:   Wed Apr 6 08:49:35 2022 +0000
+
+    This commit is fo index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git log --online
+fatal: unrecognized argument: --online
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git log --oneline
+fb1781c (HEAD -> master, origin/master, origin/HEAD) This is commit from 2nd user
+fe852c5 This commit is fo index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git log -1
+commit fb1781c1aa422e0acd7b05b1d0a1d703ea473dc0 (HEAD -> master, origin/master, origin/HEAD)
+Author: 2ndUser <2@gmail.com>
+Date:   Wed Apr 6 09:00:58 2022 +0000
+
+    This is commit from 2nd user
+[root@ip-172-31-25-240 88]# git log -1
+commit fb1781c1aa422e0acd7b05b1d0a1d703ea473dc0 (HEAD -> master, origin/master, origin/HEAD)
+Author: 2ndUser <2@gmail.com>
+Date:   Wed Apr 6 09:00:58 2022 +0000
+
+    This is commit from 2nd user
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# vi index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git add index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git commit -m "Only index file"
+[master 87ccf9d] Only index file
+ 1 file changed, 4 insertions(+)
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git log
+commit 87ccf9d4ad0b037c4e6bb0cb57d493e49767a0a5 (HEAD -> master)
+Author: 2ndUser <2@gmail.com>
+Date:   Wed Apr 6 09:20:42 2022 +0000
+
+    Only index file
+
+commit fb1781c1aa422e0acd7b05b1d0a1d703ea473dc0 (origin/master, origin/HEAD)
+Author: 2ndUser <2@gmail.com>
+Date:   Wed Apr 6 09:00:58 2022 +0000
+
+    This is commit from 2nd user
+
+commit fe852c5bb1fcd0e4d70d8ca6077b3e92fa05326b
+Author: satish7498 <satishrajurkar01@gmail.com>
+Date:   Wed Apr 6 08:49:35 2022 +0000
+
+    This commit is fo index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git log --oneline
+87ccf9d (HEAD -> master) Only index file
+fb1781c (origin/master, origin/HEAD) This is commit from 2nd user
+fe852c5 This commit is fo index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git push origin master
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/satish7498/88.git/'
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git push origin master
+Username for 'https://github.com': 2ndUser
+Password for 'https://2ndUser @github.com':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/satish7498/88.git
+   fb1781c..87ccf9d  master -> master
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git config --global crendential.helper store
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# vi index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git add index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git commit -m "4th commit"
+[master d0ce11c] 4th commit
+ 1 file changed, 4 insertions(+)
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git push origin master
+Username for 'https://github.com': 2ndUser
+Password for 'https://2ndUser@github.com':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 275 bytes | 275.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/satish7498/88.git
+   87ccf9d..d0ce11c  master -> master
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# vi index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git add index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git commit -m "5th Commit"
+[master c5e8bd0] 5th Commit
+ 1 file changed, 2 insertions(+)
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git push origin master
+Username for 'https://github.com': 2ndUser
+Password for 'https://2ndUser@github.com':
+[root@ip-172-31-25-240 88]# git config --global crendential.helper store
+[root@ip-172-31-25-240 88]# git config --global credential.helper store
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git push origin master
+Username for 'https://github.com': 2ndUser
+Password for 'https://2ndUser@github.com':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 281.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/satish7498/88.git
+   d0ce11c..c5e8bd0  master -> master
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# vi index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git add index.html
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git commit -m "6th Commit"
+[master 2c473d2] 6th Commit
+ 1 file changed, 2 insertions(+)
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]# git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 268 bytes | 268.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/satish7498/88.git
+   c5e8bd0..2c473d2  master -> master
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
+[root@ip-172-31-25-240 88]#
